@@ -104,7 +104,6 @@ def analyze_audio(filename, start_time, end_time):
     print(f"Loudest peak: {peak_time:.2f}s with level {db_level:.2f} dB")
 
 
-# Main function to run the project
 if __name__ == "__main__":
     # Step 1: List available audio devices
     print("Available audio input devices:")
